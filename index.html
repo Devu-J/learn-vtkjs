@@ -1,16 +1,27 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>vtkjs-learnings</title>
-  </head>
+    <link rel="stylesheet" href="/src/style.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/itk-wasm@1.0.0-b.8/dist/umd/itk-wasm.js"></script>
+    <script src="/src/main.js" type="module"></script>
+</head>
 
-  <body>
-    <div id="app">
-      <div id="vtk-container"></div>
+<body>
+    <div class="wrapper">
+        <nav>
+            <ul>
+                <li><a href="#geometry">Geometry</a></li>
+                <li><a href="#imaging">Imaging</a></li>
+                <li><a href="#interactions">Interactions</a></li>
+            </ul>
+        </nav>
+        <content>
+        </content>
     </div>
+</body>
 
-    <script type="module" src="/src/main.js"></script>
-  </body>
 </html>
